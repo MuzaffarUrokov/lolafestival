@@ -1,0 +1,1428 @@
+@font-face {
+	font-family: 'CaviarDreams';
+	src: url('../font/CaviarDreams.ttf');
+}
+@font-face {
+    font-family: 'CaviarDreamsBold';
+    src: url('../font/Caviar_Dreams_Bold.ttf');
+}
+@font-face {
+    font-family: 'webfont';
+    src: url('../font/caviar-dreams-bold.ttf');
+}
+
+@font-face {
+    font-family: 'Cerapro';
+    src: url('../font/Cera Pro Bold.otf');
+}
+
+
+* {
+	padding:0;
+	margin:0;
+	list-style: none;
+	box-sizing: border-box;
+	
+}
+
+.leftrasm{
+	float: left;
+
+}
+.leftrasm img{
+	width: 128px;
+	height: 117px;  
+	object-fit: contain;	
+}
+
+nav{
+	display: block;
+	float: left;
+	background-color: #fbfbfb;
+	padding:0;
+	margin: 0;
+}
+
+nav .navbar-brand img {
+	width: 84.5px;
+	height: 59px;
+	object-fit: contain;
+}
+
+nav #yashirish{
+	margin-left:400px;
+}
+
+.navbar ul li {
+	text-transform: capitalize;
+	padding:14px 0 14px 30px;
+}
+
+.navbar ul li a {
+	font-family: CaviarDreams;
+  	font-size: 15px;
+  	font-weight: bold;
+  	font-stretch: normal;
+  	font-style: normal;
+  	line-height: 1.63;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: #364b85;
+}
+
+.cls{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.topright{
+	width: 127px;
+	height: 115px;  
+	background-color: #ffffff;;
+	float: left;
+	display: block;
+	z-index:1;
+}
+
+#registratsiya{
+	margin-top: 5px;;
+	height:500px;
+	background-image: linear-gradient(180deg, #ebebeb -247%, #fff 177%);
+}
+
+#registratsiya .registr{
+	position: relative;
+}
+
+#registratsiya .registr .registratsiya{
+	position: relative;
+}
+
+#registratsiya .registr .registratsiya .leftblok1{
+	width: 120px;
+	height: 114.5px;  
+	box-shadow: -5px 20px 25px 0 rgba(90, 90, 90, 0.12);
+	background-color: #ffffff;;
+	position: absolute;
+	top:50px;
+	left:0;	  
+}
+
+#registratsiya .registr .registratsiya .leftblok2{
+	width: 120px;
+	height: 114.5px;  
+	box-shadow: -5px 20px 25px 0 rgba(90, 90, 90, 0.12);
+	background-color: #ffffff;;
+	position: absolute;
+	top:50px;
+	right:0;	  
+}
+
+#registratsiya .registr .registratsiya .leftblok3{
+	width: 120px;
+	height: 114.5px;  
+	box-shadow: -5px 20px 25px 0 rgba(90, 90, 90, 0.12);
+	background-color: #ffffff;
+	position: absolute;
+	top:300px;
+	right:0;	  
+}
+
+#registratsiya .registr .registratsiya .lolalar{
+	width: 120.5px;
+	height: 118px;  
+	object-fit: contain;
+	position: absolute;
+	left: 0;
+	top: 300px;
+}
+
+#registratsiya .registr .registratsiya .lola{
+	object-fit: contain;
+	background-image: url(../image/lola.png);
+	width: 270px;
+	height: 467px;
+	background-repeat: no-repeat;
+	margin: -47px 10px 10px 110px;
+	background-size: cover;
+}
+
+#registratsiya .registr .registratsiya .text{
+	width: 600px;
+	text-align: center;
+	padding: 88px 20px 0 60px;
+	margin: 0 6px 0 92px;
+}
+
+#registratsiya .registr .registratsiya .text p:nth-child(1){
+	font-family: CaviarDreams;
+	font-size: 19px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.82;
+	letter-spacing: normal;
+	text-align: center;
+	color: #364b85;
+}
+
+#registratsiya .registr .registratsiya .text p:nth-child(2){
+	text-shadow: 0 2px 4px rgba(0, 1, 25, 0.25);
+	font-family: CeraPro;
+	font-size: 36.5px;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.96;
+	letter-spacing: -1.46px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#registratsiya .registr .registratsiya .text .utmoq{
+	width: 125px;
+	height: 40px;
+	border-radius: 30px;
+	-webkit-backdrop-filter: blur(20px);
+	backdrop-filter: blur(20px);
+	box-shadow: 0 9px 18px 0 rgba(222, 160, 74, 0.34);
+	background-color: #dea04a;
+	margin: 33px auto; 
+	
+}
+
+#registratsiya .registr .registratsiya .text .utmoq h6{
+	font-family: CeraPro;
+	font-size: 9px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 4.38;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+}
+
+#registratsiya .registr .rightrasm{
+	position: absolute;
+	width: 125px;
+	top: 170px;
+	right: 0px;
+}
+
+#registratsiya .registr .rightrasm .rasmimg{
+	width: 127px;
+	object-fit: contain;
+}
+
+#festivalabout{
+	position: relative;
+	z-index: 1;
+}
+
+#festivalabout .festivalabout{
+	box-shadow: 0 40px 49.5px 0 rgba(0, 0, 0, 0.16);
+	background-color: #ffffff;
+	padding: 50px 160px 20px 195px;
+	z-index: 10;
+}
+
+#festivalabout .festivalabout .text{
+	padding-bottom: 20px;
+	font-family: CaviarDreams;
+	font-size: 17px;  
+	font-weight: bold;  
+	font-stretch: normal;  
+	font-style: normal;  
+	line-height: 1.59;  
+	letter-spacing: normal;  
+	text-align: center;  
+	color: #364b85;
+}
+
+#festivalabout .festivalabout p{
+	opacity: 0.3;
+	font-family: CaviarDreams;  
+	font-size: 14px;  
+	font-weight: bold;  
+	font-stretch: normal;  
+	font-style: normal;  
+	line-height: 2.14;  
+	letter-spacing: normal;  
+	text-align: center;  
+	color: #364b85;
+}
+
+#festivalabout  .festivalabout h2{
+	font-family: CeraPro;
+	font-size: 35px;  
+	font-weight: 900;  
+	font-stretch: normal;  
+	font-style: normal;  
+	line-height: 0.86;  
+	letter-spacing: normal;  
+	text-align: center;  
+	color: #dea04a;
+	padding-bottom: 40px;
+}
+
+#festivalabout .festivalabout  h6{
+	font-family: CaviarDreams;
+	font-size: 17px;  
+	font-weight: bold;  
+	font-stretch: normal;  
+	font-style: normal;  
+	line-height: 1.76;  
+	letter-spacing: normal;  
+	text-align: center;  
+	color: #dea04a;
+}
+
+#festivalabout .festivalabout img{
+	width: 15px;
+	height: 7.5px;  
+	object-fit: contain;  
+	margin-left:330px;
+
+}
+#things{
+	height: 650px;
+}
+#things .tandir{
+	background-image: url(../image/2.png);
+	width: 800px;
+	height: 550.4px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	object-fit: contain;
+	z-index: -10;
+	margin-top: -155px;
+	margin-left: -200px;
+}
+
+#things .card{
+	width: 318px;
+	height: auto;
+	box-shadow: 0 25px 49.5px 0 rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+	top:180px;
+	left:990px;
+	
+}
+
+#things .card .card-body{
+	font-family: CaviarDreams;
+	font-size: 19.5px;  
+	font-weight: bold;  
+	font-stretch: normal;  
+	font-style: normal;  
+	line-height: 1.33;  
+	letter-spacing: normal;  
+	text-align: left;  
+	color: #364b85;
+}
+
+#cards{
+	height: 700px;
+}
+
+#cards .cards{
+	position: relative;
+}
+
+#cards .cards .qizgaldoqlar{
+	width: 300.5px;
+	height: 250.7px;
+	object-fit: contain;
+	position: absolute;
+	left: 200px;
+	top:-80px;
+
+}
+
+#cards  .cards .ballon{
+	width: 500px;
+	height: 650px;
+	object-fit: contain;
+	position: absolute;
+	top: -14px;
+	left: -135px;
+}
+
+#cards .cards .rubob{
+	width: 501.5px;
+	height: 500.7px;
+	object-fit: contain;
+	box-shadow: 25px 16.5px 23px 0 rgba(0, 0, 0, 0.16);
+	top: 300px;
+	right: -130px;
+	position: absolute;
+}
+
+
+#cards .cards .row{
+	position: absolute;
+	top:100px;
+}
+
+#cards .cards .row .card{
+	width: 330px;
+	height: auto;  
+	box-shadow: 0 25px 49.5px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+#cards  .cards .row .card img{
+	object-fit: contain;
+}
+
+#cards .cards .row .card-body{
+	font-family: CaviarDreams;
+	font-size: 24.5px;  
+	font-weight: bold;  
+	font-stretch: normal;  
+	font-style: normal;  
+	line-height: 1.33;  
+	letter-spacing: normal;  
+	text-align: left;  
+	color: #364b85;
+}
+
+#aboutpicture .rasmtext{
+	position: relative;
+}	
+
+#aboutpicture .rasmtext .manzara2{
+	width: 720px;
+	height: 350.5px;
+	object-fit: contain;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+
+#aboutpicture .rasmtext .text{
+	width: 600.5px;
+	height: 270px;
+	box-shadow: 0 16.5px 28px 0 rgba(33, 34, 49, 0.11);
+	background-color: #ffffff;
+	padding: 32px 100px;
+}
+
+#aboutpicture .rasmtext .text p{
+	font-family: CaviarDreams;
+	font-size: 17px;  
+	font-weight: bold;  
+	font-stretch: normal;  
+	font-style: normal;  
+	line-height: 1.29;  
+	letter-spacing: normal;  
+	text-align: left;  
+	color: #364b85;
+}
+
+#aboutpicture .picturetext{
+	margin-top: 150px;
+}
+
+#aboutpicture .picturetext .uylar{
+	width: 540.5px;
+	height: 310px;
+	object-fit: contain;
+	float: left;
+	margin-right: 12px;
+}
+
+#aboutpicture .picturetext .text2{
+	width: 400.5px;
+	height: 177px;
+	float: left;
+	font-family: CaviarDreams;
+	font-size: 25px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2;
+	letter-spacing: -0.75px;
+	text-align: left;																																																																																																																																																								
+	color: #364b85;
+}
+
+@media only screen and (min-width: 1500px){
+
+	.leftrasm img{
+		width: 224px;
+		height: 200px;
+	}
+	
+	.container																																																																								{
+		max-width:1400px!important;	
+		width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+		margin-right: 0;
+		margin-left: 229px;																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
+	}
+
+	nav .navbar-brand img {
+		width: 153px;
+		height: 108px;	  
+		object-fit: contain;
+	}
+	
+	nav #yashirish{
+		margin-left:355px;
+	}
+	
+	.navbar ul li {
+		text-transform: capitalize;
+		padding:14px 0 14px 30px;
+	}
+	
+	.navbar ul li a {
+		font-size: 30px;
+	}
+	
+	#registratsiya{
+		margin-top: -60px;
+		height: 800px;
+		background-image: linear-gradient(180deg, #ebebeb 5%, #ffffff 90%);
+	}
+	
+	#registratsiya .registr .registratsiya .leftblok1{
+		width: 240px;
+		height: 229px;
+		top: 60px;
+		left: 0;
+	}
+	
+	#registratsiya .registr .registratsiya .leftblok2{
+		width: 240px;
+		height: 229px;		
+		top: 60px;
+		right: 0;  
+	}
+	
+	#registratsiya .registr .registratsiya .leftblok3{
+		width: 240px;
+		height: 229px;
+		top: 530px;
+		right: 0; 
+	}
+	
+	#registratsiya .registr .registratsiya .lolalar{
+		width: 240px;
+		height: 229px;
+		left: 0;
+		top: 530px;
+	}
+	
+	#registratsiya .registr .registratsiya .lola{
+		width: 478px;
+		height: 729px;
+		margin: -50px 10px 10px 142px;
+	}
+	
+	#registratsiya .registr .registratsiya .text{
+		width: 716px;
+		padding: 130px 20px 0 180px;
+		margin: 0 10px 0 92px;
+	}
+	
+	#registratsiya .registr .registratsiya .text p:nth-child(1){
+		font-size: 29px;
+	}
+	
+	#registratsiya .registr .registratsiya .text p:nth-child(2){
+		font-size: 40.5px;
+	}
+	
+	#registratsiya .registr .registratsiya .text .utmoq{
+		width: 135px;
+		height: 45px;		
+		margin: 30px auto;
+	}
+	
+	#registratsiya .registr .registratsiya .text .utmoq h6{
+		font-size: 11px;		
+	}
+	
+	#registratsiya .registr .rightrasm{
+		width: 280px;
+		top: 290px;
+		right: 0;
+	}
+
+	#registratsiya .registr .rightrasm .rasmimg{
+		width: 260px;
+	}
+
+	#festivalabout .festivalabout{
+		padding: 60px 180px 80px 200px;
+	}
+	
+	#festivalabout .festivalabout .text{
+		font-size: 34px;	  
+	}
+	
+	#festivalabout .festivalabout p{
+	  	font-size: 28px;
+	}
+	
+	#festivalabout  .festivalabout h2{
+		font-size: 70px;	  
+	}
+	
+	#festivalabout .festivalabout  h6{
+		font-size: 34px;	  
+	}
+	
+	#festivalabout .festivalabout img{
+		width: 30px;
+		height: 15px;	  
+		margin-left: 510px;
+	
+	}
+	
+	#things{
+		height: 1100px;
+	}
+	
+	#things .tandir{
+		width: 1250px;
+		height: 870px;
+		margin-top: -250px;
+		margin-left: -365px;
+	}
+	
+	#things .card{
+		width: 374px;
+		height: auto;
+		top:280px;
+		left:1385px;
+		
+	}
+	
+	#things .card .card-body{
+		font-size: 32px;  
+	}
+	
+	#cards{
+		height: 1200px;
+	}
+	
+	#cards .cards .qizgaldoqlar{
+		width: 549px;
+		height: 471px;
+		left: 400px;
+		top:-240px;
+	}
+	
+	#cards  .cards .ballon{
+		width: 964px;
+		height: 1274px;
+		top: -90px;
+		left: -180px;
+	}
+	
+	#cards .cards .rubob{
+		width: 785px;
+		height: 575px;
+		top: 468px;
+		right: -330px;
+	}
+	
+	
+	#cards .cards .row{
+		top:100px;
+	}
+	
+	#cards .cards .row .card{
+		width: 452px;
+		height: auto;  
+	}
+	
+	#cards  .cards .row .card img{
+		height: 310px;
+	}
+	
+	#cards .cards .row .card-body{
+		font-size: 39px;  
+	}
+	
+	#aboutpicture .rasmtext .manzara2{
+		width: 1092px;
+		height: 529px;
+		top: 0;
+		right: 0;
+	}
+	
+	#aboutpicture .rasmtext .text{
+		width: 899px;
+		height: 365px;
+		padding: 30px 100px;
+	}
+	
+	#aboutpicture .rasmtext .text p{
+		font-size: 34px;  
+	}
+	
+	#aboutpicture .picturetext{
+		margin-top: 200px;
+	}	
+	
+	#aboutpicture .picturetext .uylar{
+		width: 550px;
+		height: 490px;
+		margin-right: 80px;
+	}
+	
+	#aboutpicture .picturetext .text2{
+		width: 500px;
+		height: 177px;
+		float: left;
+		margin-left: 50px;
+	}
+
+	#aboutpicture .picturetext .text2 p{
+		font-family: CaviarDreams;
+		font-size: 30px;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 2;
+		letter-spacing: -0.75px;
+		text-align: left;
+		color: #364b85;
+	}
+		   
+}
+
+@media only screen and (max-width:950px){
+
+	.leftrasm{		
+		display: none;
+	}
+		
+	nav{
+		z-index: 1;
+	}
+	
+	nav .navbar-brand img {
+		width: 150.5px;
+		height: 115px;
+		margin-right: 410px;
+	}
+
+	.navbar ul li {
+		text-transform: capitalize;
+		padding:0px 10px 10px 0px;
+	}
+	
+	.navbar ul li a {
+		font-size: 20px;
+	}
+	
+	nav #yashirish {
+		margin-left: 10px;
+	}
+
+	.topright{
+		width: 0px;
+		height: 0px;  
+	}
+	
+	#registratsiya{
+		margin-top: 50px;;
+		height:500px;
+		background-image: linear-gradient(180deg, #ebebeb -247%, #fff 177%);
+	}
+	
+	#registratsiya .registr .registratsiya .leftblok1{
+		width: 110px;
+		height: 100px;  
+		top:25px;
+		left:0;	  
+	}
+	
+	#registratsiya .registr .registratsiya .leftblok2{
+		width: 110px;
+		height: 100px;  
+		top:25px;
+		right:0;	  
+	}
+	
+	#registratsiya .registr .registratsiya .leftblok3{
+		width: 110px;
+		height: 100px;  
+		top:300px;
+		right:0;	  
+	}
+	
+	#registratsiya .registr .registratsiya .lolalar{
+		width: 110px;
+		height: 100px;  
+		left: 0;
+		top: 300px;
+	}
+	
+	#registratsiya .registr .registratsiya .lola{
+		width: 250px;
+		height: 395px;
+		margin: -50px 10px 10px 110px;
+	}
+	
+	#registratsiya .registr .registratsiya .text{
+		width: 350px;
+		text-align: center;
+		padding: 80px 0px 0 0px;
+		margin: 0px 6px 0px 60px;
+	}
+	
+	#registratsiya .registr .registratsiya .text p:nth-child(1){
+		font-size: 16px;
+	}
+	
+	#registratsiya .registr .registratsiya .text p:nth-child(2){
+		font-size: 30.5px;
+	}
+	
+	#registratsiya .registr .registratsiya .text .utmoq{
+		width: 135px;
+		height: 42px;
+		margin: 33px auto; 
+	}
+	
+	#registratsiya .registr .registratsiya .text .utmoq h6{
+		font-size: 11px;
+	}
+	
+	#registratsiya .registr .rightrasm{
+		display: none;
+	}
+	
+	
+	#festivalabout{
+		position: relative;
+		z-index: 1;
+	}
+	
+	#festivalabout .festivalabout{
+		padding: 50px 100px 30px 110px;
+		z-index: 10;
+	}
+	
+	#festivalabout .festivalabout .text{
+		padding-bottom: 20px;
+		font-size: 17px;  
+	}
+	
+	#festivalabout .festivalabout p{
+		font-size: 14px;  
+	}
+	
+	#festivalabout  .festivalabout h2{
+		font-size: 35px;  
+	}
+	
+	#festivalabout .festivalabout  h6{
+		font-size: 17px;  
+	}
+	
+	#festivalabout .festivalabout img{
+		width: 15px;
+		height: 7.5px;  
+		margin-left:215px;
+	}
+
+	#things{
+		height: 650px;
+	}
+	
+	#things .tandir{
+		width: 650px;
+		height: 450px;
+		z-index: -10;
+		margin-top: -130px;
+		margin-left: -170px;
+	}
+	
+	#things .card{
+		width: 250px;
+		top:190px;
+		left:610px;
+	}
+	
+	#things .card .card-body{
+		font-size: 15.5px;  
+	}
+	
+	#cards{
+		height: 700px;
+	}
+	
+	#cards .cards{
+		position: relative;
+	}
+	
+	#cards .cards .qizgaldoqlar{
+		width: 304.5px;
+		height: 240.7px;
+		left: 200px;
+		top:-85px;
+	}
+	
+	#cards  .cards .ballon{
+		width: 490px;
+		height: 630px;
+		top: -30px;
+		left: -115px;
+	}
+	
+	#cards .cards .rubob{
+		width: 400.5px;
+		height: 450.7px;
+		top: 190px;
+		right: -145px;
+	}
+		
+	#cards .cards .row{
+		top:100px;
+	}
+	
+	#cards .cards .row .card{
+		width: 210px;
+		height: auto;  
+	}
+	
+	#cards .cards .row .card-body{
+		font-size: 14.5px;  
+	}
+	
+	#aboutpicture .rasmtext{
+		position: relative;
+	}	
+	
+	#aboutpicture .rasmtext .manzara2{
+		width: 580px;
+		height: 400.5px;
+		top: 0;
+		right: 0;
+		z-index: -1;
+	}
+	
+	#aboutpicture .rasmtext .text{
+		width: 480.5px;
+		height: 230px;
+		padding: 30px 50px;
+	}
+	
+	#aboutpicture .rasmtext .text p{
+		font-size: 15px;  
+	}
+	
+	#aboutpicture .picturetext{
+		margin-top: 150px;
+	}
+	
+	#aboutpicture .picturetext .uylar{
+		width: 400.5px;
+		height: 280px;
+		margin-right: 12px;
+	}
+	
+	#aboutpicture .picturetext .text2{
+		width: 240.5px;
+		height: 177px;
+		font-size: 15px;
+	}	
+}
+
+@media only screen and (max-width:600px){
+	.leftrasm{		
+		display: none;
+	}
+		
+	nav{
+		z-index: 1;
+	}
+	
+	nav .navbar-brand img {
+		width: 100.5px;
+		height: 90px;
+		margin-right: 190px;
+	}
+
+    nav #yashirish{
+		margin-left: 5px;
+	}
+
+	.navbar ul li {
+		text-transform: capitalize;
+		padding:0px 0px 0px 0px;
+	}
+	
+	.navbar ul li a {
+		font-size: 20px;
+	}
+	
+	.topright{
+		width: 0px;
+		height: 0px;  
+	}
+	
+	#registratsiya{
+		margin-top: 50px;;
+		height:400px;
+		background-image: linear-gradient(180deg, #ebebeb -247%, #fff 177%);
+	}
+	
+	#registratsiya .registr .registratsiya .leftblok1{
+		width: 70px;
+		height: 60px;  
+		top:25px;
+		left:0;	  
+	}
+	
+	#registratsiya .registr .registratsiya .leftblok2{
+		width: 70px;
+		height: 60px;  
+		top:25px;
+		right:0;	  
+	}
+	
+	#registratsiya .registr .registratsiya .leftblok3{
+		width: 70px;
+		height: 60px;  
+		top:250px;
+		right:0;	  
+	}
+	
+	#registratsiya .registr .registratsiya .lolalar{
+		width: 70px;
+		height: 60px;  
+		left: 0;
+		top: 250px;
+	}
+	
+	#registratsiya .registr .registratsiya .lola{
+		width: 200px;
+		height: 300px;
+		margin: -50px 10px 10px 50px;
+	}
+	
+	#registratsiya .registr .registratsiya .text{
+		width: 250px;
+		text-align: center;
+		padding: 70px 0px 0 0px;
+		margin: 0px 0px 0px 50px;
+	}
+	
+	#registratsiya .registr .registratsiya .text p:nth-child(1){
+		font-size: 12px;
+	}
+	
+	#registratsiya .registr .registratsiya .text p:nth-child(2){
+		font-size: 20.5px;
+	}
+	
+	#registratsiya .registr .registratsiya .text .utmoq{
+		width: 120px;
+		height: 38px;
+		margin: 30px auto; 
+	}
+	
+	#registratsiya .registr .registratsiya .text .utmoq h6{
+		font-size: 9px;
+	}
+	
+	#registratsiya .registr .rightrasm{
+		display: none;
+	}
+	
+	
+	#festivalabout{
+		position: relative;
+		z-index: 1;
+	}
+	
+	#festivalabout .festivalabout{
+		padding: 50px 50px 30px 50px;
+		z-index: 10;
+	}
+	
+	#festivalabout .festivalabout .text{
+		padding-bottom: 20px;
+		font-size: 17px;  
+	}
+	
+	#festivalabout .festivalabout p{
+		font-size: 14px;  
+	}
+	
+	#festivalabout  .festivalabout h2{
+		font-size: 23px;  
+	}
+	
+	#festivalabout .festivalabout  h6{
+		font-size: 17px;  
+	}
+	
+	#festivalabout .festivalabout img{
+		width: 15px;
+		height: 7.5px;  
+		margin-left:150px;
+	}
+
+	#things{
+		height: 500px;
+	}
+	
+	#things .tandir{
+		width: 350px;
+		height: 250px;
+		z-index: -10;
+		margin-top: -70px;
+		margin-left: -50px;
+	}
+	
+	#things .card{
+		width: 200px;
+		top:100px;
+		left:250px;
+	}
+	
+	#things .card .card-body{
+		font-size: 13.5px;  
+	}
+	
+	#cards{
+		height: 960px;
+	}
+	
+	#cards .cards{
+		position: relative;
+	}
+	
+	#cards .cards .qizgaldoqlar{
+		width: 200.5px;
+		height: 225.7px;
+		left: 220px;
+		top:-120px;
+	}
+	
+	#cards  .cards .ballon{
+		width: 450px;
+		height: 600px;
+		top: -30px;
+		left: -20px;
+	}
+	
+	#cards .cards .rubob{
+		width: 440.5px;
+		height: 433.7px;
+		top: 430px;
+		right: -15px;
+	}
+		
+	#cards .cards .row{
+		top:40px;
+		left: 100px;
+	}
+	
+	#cards .cards .row .col-sm-4{
+		margin-bottom: 10px;
+	}
+
+	#cards .cards .row .card{
+		width: 210px;
+		height: auto;  
+	}
+	
+	#cards .cards .row .card-body{
+		font-size: 14.5px;  
+	}
+	
+	#aboutpicture .rasmtext{
+		position: relative;
+	}	
+	
+	#aboutpicture .rasmtext .manzara2{
+		width: 360px;
+		height: 310px;
+		top: 0;
+		right: 0;
+		z-index: -1;
+	}
+	
+	#aboutpicture .rasmtext .text{
+		width: 300.5px;
+		height: 160px;
+		padding: 30px 50px;
+	}
+	
+	#aboutpicture .rasmtext .text p{
+		font-size: 10px;  
+	}
+	
+	#aboutpicture .picturetext{
+		margin-top: 150px;
+	}
+	
+	#aboutpicture .picturetext .uylar{
+		width: 240px;
+		height: 160px;
+		margin-right: 12px;
+	}
+	
+	#aboutpicture .picturetext .text2{
+		width: 140.5px;
+		height: 158px;
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width:400px){
+	.leftrasm{		
+		display: none;
+	}
+		
+	nav{
+		z-index: 1;
+	}
+	
+	nav .navbar-brand img {
+		width: 100.5px;
+		height: 90px;
+		margin-right: 100px;
+	}
+
+    nav #yashirish{
+		margin-left: 5px;
+	}
+
+	.navbar ul li {
+		text-transform: capitalize;
+		padding:0px 0px 0px 0px;
+	}
+	
+	.navbar ul li a {
+		font-size: 20px;
+	}
+	
+	.topright{
+		width: 0px;
+		height: 0px;  
+	}
+	
+	#registratsiya{
+		margin-top: 50px;;
+		height:400px;
+		background-image: linear-gradient(180deg, #ebebeb -247%, #fff 177%);
+	}
+	
+	#registratsiya .registr .registratsiya .leftblok1{
+		width: 70px;
+		height: 60px;  
+		top:25px;
+		left:0;	  
+	}
+	
+	#registratsiya .registr .registratsiya .leftblok2{
+		width: 70px;
+		height: 60px;  
+		top:25px;
+		right:0;	  
+	}
+	
+	#registratsiya .registr .registratsiya .leftblok3{
+		width: 70px;
+		height: 60px;  
+		top:250px;
+		right:0;	  
+	}
+	
+	#registratsiya .registr .registratsiya .lolalar{
+		width: 70px;
+		height: 60px;  
+		left: 0;
+		top: 250px;
+	}
+	
+	#registratsiya .registr .registratsiya .lola{
+		width: 185px;
+		height: 290px;
+		margin: -50px 10px 10px 50px;
+	}
+	
+	#registratsiya .registr .registratsiya .text{
+		width: 250px;
+		text-align: center;
+		padding: 90px 0px 0 0px;
+		margin: 0px 0px 0px -10px;
+	}
+	
+	#registratsiya .registr .registratsiya .text p:nth-child(1){
+		font-size: 11px;
+	}
+	
+	#registratsiya .registr .registratsiya .text p:nth-child(2){
+		font-size: 15.5px;
+	}
+	
+	#registratsiya .registr .registratsiya .text .utmoq{
+		width: 110px;
+		height: 33px;
+		margin: 25px auto; 
+	}
+	
+	#registratsiya .registr .registratsiya .text .utmoq h6{
+		font-size: 8px;
+	}
+	
+	#registratsiya .registr .rightrasm{
+		display: none;
+	}
+	
+	
+	#festivalabout{
+		position: relative;
+		z-index: 1;
+	}
+	
+	#festivalabout .festivalabout{
+		padding: 50px 10px 30px 10px;
+		z-index: 10;
+	}
+	
+	#festivalabout .festivalabout .text{
+		padding-bottom: 20px;
+		font-size: 14px;  
+	}
+	
+	#festivalabout .festivalabout p{
+		font-size: 14px;  
+	}
+	
+	#festivalabout  .festivalabout h2{
+		font-size: 23px;  
+	}
+	
+	#festivalabout .festivalabout  h6{
+		font-size: 16px;  
+	}
+	
+	#festivalabout .festivalabout img{
+		width: 15px;
+		height: 7.5px;  
+		margin-left:150px;
+	}
+
+	#things{
+		height: 500px;
+	}
+	
+	#things .tandir{
+		width: 385px;
+		height: 265px;
+		z-index: -10;
+		margin-top: -75px;
+		margin-left: -45px;
+	}
+	
+	#things .card{
+		width: 200px;
+		top:100px;
+		left:125px;
+	}
+	
+	#things .card .card-body{
+		font-size: 12.5px;  
+	}
+	
+	#cards{
+		height: 1000px;
+	}
+	
+	#cards .cards{
+		position: relative;
+	}
+	
+	#cards .cards .qizgaldoqlar{
+		width: 200.5px;
+		height: 225.7px;
+		left: 200px;
+		top:-90px;
+	}
+	
+	#cards  .cards .ballon{
+		width: 374px;
+		height: 632px;
+		top: -30px;
+		left: -20px;
+	}
+	
+	#cards .cards .rubob{
+		width: 401.5px;
+		height: 390.7px;
+		top: 430px;
+		right: -49px;
+	}
+		
+	#cards .cards .row{
+		top:90px;
+		left: 75px;
+	}
+	
+	#cards .cards .row .col-sm-4{
+		margin-bottom: 10px;
+	}
+
+	#cards .cards .row .card{
+		width: 210px;
+		height: auto;  
+	}
+	
+	#cards .cards .row .card-body{
+		font-size: 14.5px;  
+	}
+	
+	#aboutpicture .rasmtext{
+		position: relative;
+	}	
+	
+	#aboutpicture .rasmtext .manzara2{
+		width: 280px;
+		height: 300px;
+		top: 0;
+		right: 0;
+		z-index: -1;
+	}
+	
+	#aboutpicture .rasmtext .text{
+		width: 250.5px;
+		height: 132px;
+		padding: 20px 20px;
+	}
+	
+	#aboutpicture .rasmtext .text p{
+		font-size: 10px;  
+	}
+	
+	#aboutpicture .picturetext{
+		margin-top: 150px;
+	}
+	
+	#aboutpicture .picturetext .uylar{
+		width: 140px;
+		height: 150px;
+		margin-right: 12px;
+	}
+	
+	#aboutpicture .picturetext .text2{
+		width: 140.5px;
+		height: 158px;
+		font-size: 10px;
+	}
+}
